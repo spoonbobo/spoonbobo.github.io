@@ -6,8 +6,9 @@ layout: post
 
 Coming to debug CUDA kernels, many of you might have used `printf` to print out `blockIdx`, `threadIdx` to investigate what the threads are doing and what make them go wrong. This approach could get very messy sometimes as it might not be very informational when you debug on a large-sized kernel, which ends up spending tremendous time in debugging.
 
-With `cassert`, the debug process could be much more effective when we are able to predict the expected behaviours of threads, such as offset boundaries, in our kernel codes. If a thread "violated" the assertion, its `blockIdx`, `threadIdx`, as well as the assertion would be printed out in the program. Here is the code example to reproduce a simple assertion":
+With `cassert`, the debug process could be much more effective when we are able to predict the expected behaviours of threads, such as offset boundaries, in our kernel codes. If a thread "violated" the assertion, its `blockIdx`, `threadIdx`, as well as the assertion would be printed out in the program. Here is the tiny code example to reproduce a simple assertion:
 
+Code
 ```c++
 #include <cassert>
 
