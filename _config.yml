@@ -24,6 +24,7 @@ header_pages:
 
 include:
     - _pages
+    - _layout
 
 exclude: 
     - .gitignore
@@ -32,3 +33,5 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+
+paginate: 5
