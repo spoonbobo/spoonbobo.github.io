@@ -4,6 +4,4 @@ layout: page
 title: About me
 ---
 
-More details about me on this page with links to my social media profiles and so on.
-
-![](https://www.jorgesanz.net/assets/imgs/me/jsanz_small4.png)
+Hi all, I am Season Poon, I have a fun name - spoon, which you can also call me in this way. I am currently working as MLOps Engineer. I love to do cuda programming, still actively learning everything about it, and recently I decided to share my learning journey here, and I am glad you would read it and learn alognside me :)!

@@ -1,16 +1,14 @@
-title: My blog
-description: My very nice blog
-author: "Jorge Sanz"
+title: Spoon's github io
+description: Parallelized world
+author: "Season Poon"
 
 theme: minima
 
 base_url: /gh-pages-minima-starter
 
 # Minima social links
-twitter_username: xurxosanz
-github_username: jsanz
-linkedin_username: jsanz
-rss: rss
+github_username: spoonbobo
+linkedin_username: szesenpoon
 
 # Minima: show excerpts in the frontpage
 show_excerpts: true
